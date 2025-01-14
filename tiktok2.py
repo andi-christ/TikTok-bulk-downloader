@@ -27,7 +27,7 @@ print("Please manually log in and solve the CAPTCHA.")
 
 # Wait until the user is logged in
 try:
-    profile_url = "https://www.tiktok.com/@d4ddy4lph4"
+    profile_url = "https://www.tiktok.com/###"
     driver.get(profile_url)
     
     WebDriverWait(driver, 300).until(
@@ -89,7 +89,3 @@ for idx, url in enumerate(video_urls, start=1):
 
 # Quit the WebDriver
 driver.quit()
-
-
-# d4ddy4lph4
-# UrgMondays1!
